@@ -1,0 +1,43 @@
+body{
+    background-color:maroon;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1{
+    text-align: center;
+    align-items: center;
+    
+}
+main{
+    display: flex;
+    height:85vh;
+    justify-content: center;
+}
+.calculator{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #fff;
+    width: 320px;
+}
+.screen{
+    font-size: 70px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.intbtn{
+    margin-top: 50px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 10px;
+}
+.intbtn button{
+  height: 60px;
+  width: 100%;
+  font-size: 30px;
+  border-radius: 12px; 
+  border: none;
+}
